@@ -6,11 +6,33 @@
     <title>Atributos dos Formularios</title>
 </head>
 <body>
+   <fieldset>
+        <legend>Sobre Mim</legend>
     <form action="/action_page.php" method="GET">
     <label for="nome">Nome: </label><br>
-    <input type="text" id="nome" value="Heidi"><br>
-    <input type="submit" value="Enviar">
+    <input type="text" id="nome" value="Ricardo"><br>
+    <input type="submit" value="Enviar"><br>
+
+        <!--multipla escolha -->
+    <br>
+    
+        <label for="animais"> Escolha um animal:</label><br>
+    <select id="animais" name="animais">
+        <option value="cachorro">Cachorro</option>
+        <option value="Gato">Gato</option>
+        <option value="Passarinho">Passarinho</option>
+    </select><br>
+</fieldset>
+<fieldset>
+    <legend> Exemplos</legend>
+    <!--Cricando uma area de texto-->
+    <textarea name="mensagem" rows="10" cols="30"></textarea>
+    <!--Botão-->
+    <button type="button" onclick="alert('mensagem enviada com sucesso')">Enviar</button>
+    </fieldset>
+    
     </form>
+
     
 </body>
 </html>
