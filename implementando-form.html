@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementando Formulario</title>
+</head>
+<body>
+    <form action="/action.page.php" method="post">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <!--Nome-->
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="nome" value=""><br> <br>
+
+              <!--CPF-->
+              <label for="cpf">CPF:</label>
+              <input type="text" id="cpf" name="cpf" value=""><br> <br>
+
+                <!--Escolaridade-->
+            <label for="Esc">Escolaridade:</label><br>
+            <input type="radio" id="em" name="nivel" value="em">
+            <label for="em" >Ensino Médio</label> <br>
+
+            <input type="radio" id="em" name="nivel" value="em">
+            <label for="es" >Ensino Superior</label> <br>
+
+            <input type="radio" id="eg" name="nivel" value="eg">
+            <label for="eg" >Pós-Graduação</label> <br>
+            <br>
+
+            <!--Data-->
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="dn" name="data" ><br>
+
+            <!--Dispositivos-->
+            <Label for="disp">Você possui: </Label><br>
+            <input type="checkbox" id="1" name="1" value="Smartphone">
+            <label for="1">Smartphone</label><br>
+            <input type="checkbox" id="2" name="2" value="Laptop">
+            <label for="2">Laptop</label><br>
+            <input type="checkbox" id="3" name="3" value="Desktop">
+            <label for="3">Desktop</label><br>
+            <input type="checkbox" id="4" name="4" value="Tablet">
+            <label for="4">Tablet</label><br>
+       </fieldset>
+
+       <fieldset>
+           <legend>Dados para Cadastro</legend>
+           <!--Email-->
+           <label for="email">Email:</label>
+           <input type="text" id="email" name="email" value=""><br> <br>
+
+           <!--SENHA-->
+           <label for="senha">Senha:</label>
+           <input type="password" id="senha" name="">
+
+       </fieldset>
+       <!--Enviar-->
+       <input type="Submit" onclick="alert('Suas respostas foram enviadas com sucesso')" value="Enviar">
+       <!--Reset-->
+       <input type="reset" value="reset">
+
+
+    </form>
+    
+</body>
+</html>
