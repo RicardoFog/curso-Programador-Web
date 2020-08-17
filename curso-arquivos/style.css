@@ -1,0 +1,139 @@
+.inicio{
+position: relative;
+text-align: center;
+color: white;
+}
+
+.titulo{
+    font: 80px;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.subtitulo{
+    font: 25px;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+}
+.sobre{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: white;
+    }
+    .foto-sobre{
+        margin-left: 300px;
+        width: 20%;
+    }
+    .titulo-sobre{
+        position: relative;
+        margin-top: -280px;
+        left: 625;
+        font-size: 50px;
+        color: #E2957c;
+        text-align: right;
+    }
+    .texto-sobre{
+     
+        position: relative;
+        top: -420;
+        left: 625;
+        text-align: right;
+        font-size: 18px;
+        color: black;
+    }
+    .depoimentos{
+        margin-top: -400;
+        background-color: #f1e4bd;
+    }
+    .titulo-depoimentos{
+        padding-top: 30;
+        padding-bottom: 20;
+        font-size: 50px;
+        text-align: center;
+        color: #E2957C;
+}
+.table{
+    margin-right: 100;
+    margin-left: 100;
+}
+.foto-depoimentos{
+    width: 30%;
+}
+.texto-depoimentos{
+    padding-top: 10;
+    padding-bottom: 50;
+    font: 18px;
+    text-align: center;
+    color: black;
+}
+
+.contato{
+    text-align: center;
+    margin-bottom: 100;
+}
+.titulo-contato{
+    font-size: 50px;
+    color: #E2957c
+}
+.texto-contato{
+margin-top: -30;
+font-size: 14px;
+color: black;
+}
+.instagram{
+    background-color: #E2957c;
+    color: white;
+    cursor: pointer;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 20px;
+    }
+    .instagram:hover{
+        background-color: #E2A87C;
+       
+    }
+
+    .email{
+        margin-top: 10;
+        margin-bottom: 10; 
+        background-color: #E7d293;
+        color: white;
+        cursor: pointer;
+        padding: 2px 5px;
+        text-align: center;
+        font-size: 20px;
+        }
+        .email:hover{
+            background-color: #F1E4BD;
+        }
+
+        .whatsaap{
+            margin-top: 10;
+            background-color: #Edb6af;
+            color: white;
+            cursor: pointer;
+            padding: 2px 5px;
+            text-align: center;
+            font-size: 20px;
+           
+            }
+            .whatsaap:hover{
+                background-color: #F1E4BD;
+                
+            }
+            .video{
+                margin-top: 20;
+                padding-top: 20;
+                padding-bottom: 70;
+                background-color: #E2957C;
+                font-size: 50px;
+                color: #F1E4BD;
+                text-align: center;
+            }
+            .footer{
+                background-color: white;
+                text-align: center;
+                font-size: 14px;
+                color: black;
+            }
