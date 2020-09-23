@@ -1,0 +1,1 @@
+alert("Estou vindo de um arquivo externo para te dar: OI!!!")
